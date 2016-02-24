@@ -18,7 +18,8 @@
 	<div id="bg-dots">
 	    <div class="container">
 		    
-	    <!-- Welcome Section -->
+<!-- Welcome
+================================================== -->
 	        <div class="row welcome">
 		      <h1>Welcome</h1>
 		      <h2>Welcome to JKD Design: a Fremantle-based design studio that is built on creative thinking and strategic solutions for branding, graphic and web design.</h2> 
@@ -36,7 +37,9 @@
 	       </div>
     </div>  
 	</div> 
-    <!-- Services Section --> 
+	
+<!-- Services
+================================================== -->
     <div id="bg-grunge">  
     <div class="container">
        <div class="row services">
@@ -66,23 +69,25 @@
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
        </div>
+     
+
        
-       
-     <!-- Carousel
-    ================================================== -->
+<!-- Carousel
+================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
+      </ol><h1>Testimonials</h1>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
                     <div class="container">
+	                  
             <div class="carousel-caption">
 
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
             </div>
           </div>
@@ -116,6 +121,29 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
+
+<!-- About
+================================================== -->
+	<div id="bg-grey">
+	    <div class="container">
+		    
+	        <div class="row about">
+		      <h1>About</h1>
+		    
+		    <div class="col-md-6">
+	        <p>JKD Design believes that each brand has an entirely unique personality. Design that is effective and memorable involves much more than the visual aesthetic. At its core, it is about creative and strategic solutions that are as unique as the brand personality itself.
+At the beginning, we like to have a one-on-one chat over coffee to begin the research process and to develop a comprehensive understanding of your business, brand and marketplace. The ability to deliver a message that is both clear and effective is paramount in reaching a target market in any industry. Only then do the creative ideas start flowing; ideas that are researched, relevant and distinct.</div>
+	        
+	        <div class="col-md-6">
+			<p>We believe that with every project collaboration is key; working closely with a client develops a solid relationship and in turn a thorough understanding of the brand in order to achieve a final outcome that surpasses objectives and simply gets results.</p>
+<p>We work with a community of professional experts, from web developers to printers, and we identify the right expertise to bring your project to fruition - great people are the key to great work.</p>
+	        </div>
+	
+	       </div>
+    </div>  
+	</div> 
+
+
 
    
     <!-- Footer -->    
