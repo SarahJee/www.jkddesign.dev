@@ -36,7 +36,6 @@
 
 .row {
 	margin-top: 0;
-	padding: 0 5%;
 }
 
 body {
@@ -201,9 +200,13 @@ img.center-block {
 /*  STYLES
 -------------------------------------------------- */
 
-.welcome, .about {
+.welcome, .services, .about {
+	padding: 0 5%;
 	margin-bottom: 2em;
-	}
+}
+
+
+
 
 .about {
 	color: #fff;
