@@ -87,7 +87,7 @@ h3 {
 .jumbotron {
 	background: url("img/bg-home.jpg") no-repeat center center;
     background-size: cover;
-    min-height: 550px;
+    height: 612px;
     text-align: center;
     border-bottom: solid 15px #ef463a;
     margin-bottom: 0px;
@@ -608,8 +608,20 @@ color: #ef463a !important;
     -webkit-animation-name: bounce;
     animation-name: bounce;
 	}	
+	
+	
+/* Thank you Page */
 
-
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+	
 
 /*--------------------------------------------------
  MEDIA QUERIES

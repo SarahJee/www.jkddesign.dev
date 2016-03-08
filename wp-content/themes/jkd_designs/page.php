@@ -1,4 +1,4 @@
-<!-- Single page with sidebar (auto template for mew pages)-->
+<!-- Single page with sidebar (auto template for new pages)-->
 
 <?php get_header( 'sml' ); ?>
 
