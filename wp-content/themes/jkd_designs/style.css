@@ -36,6 +36,7 @@
 
 .row {
 	margin-top: 0;
+	padding: 0 5%;
 }
 
 body {
@@ -45,6 +46,7 @@ body {
    line-height: 1.5em;
    color: #4d4e4e;
 	}
+
 
 h1 {
 	font-family: 'la_veroniqueregular', sans-serif;
@@ -274,15 +276,28 @@ img.center-block {
 .project-text {
 	position: absolute;
 	z-index: 1;
-	top: 7%;
+	top: 20px;
 	color: #fff;
 	margin-right: 13px;
-	padding: 24% 0;
-	background: url('img/project-dark-grey.png');
-	height: 381px;
+	margin-top: 10px;
+	padding: 14% 0;
+	background: url('img/project-coral.png');
+	height: 250px;
 	visibility: hidden;
 	}
 
+/* selects .project-text within links 2, 5, 8,... */
+/* 3n + 3 is the same as 3n */
+.row:nth-child(3n + 1) a:last-child .project-text,
+.row:nth-child(3n + 3) a:first-child .project-text {
+  background: url('img/project-dark-grey.png');
+}
+
+/* selects .project-text within links 3, 6, 9,... */
+.row:nth-child(3n + 2) a:first-child .project-text,
+.row:nth-child(3n + 3) a:last-child .project-text {
+  background: url('img/project-light-grey.png');
+}
 
 .project-entry:hover .project-text {
 	visibility: visible;
@@ -597,8 +612,10 @@ color: #ef463a !important;
  MEDIA QUERIES
 -------------------------------------------------- */
 
-@media (min-width: 435px) {
-
+@media (min-width: 440px) {
+		
+	.project-text {
+	height: 280px;
 }
 
 @media (min-width: 700px) {
@@ -610,6 +627,11 @@ color: #ef463a !important;
 .project-images img {
 	padding: 50px 100px;
 	}
+	
+	.project-text {
+	height: 460px;
+	padding: 24% 0;
+}
 	
 .carousel {
 	height: 500px;
@@ -644,9 +666,12 @@ color: #ef463a !important;
 	background: url("img/bg-grunge.png") repeat ;
 	border-bottom: solid 15px #ef463a!important;
 	min-height: 148px;
-	
 	}
-
+	
+	.project-text {
+	height: 250px;
+	padding: 10% 2%;
+	}
 	
 
 }
@@ -696,6 +721,14 @@ color: #ef463a !important;
 	}
 }
 
+@media (min-width: 992px) {
+	
+	.project-text {
+	height: 320px;
+	padding-top: 20%;
+	}
+
+
 @media (min-width: 1045px) {
 	
 .carousel {
@@ -704,4 +737,20 @@ color: #ef463a !important;
 	
 }
 
+@media (min-width: 1200px) {
+	
+	.project-text {
+	height: 390px;
+	}
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 

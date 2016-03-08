@@ -19,9 +19,6 @@
 				<h4><?php the_title(); ?> | <?php the_field('project_type_name'); ?></h4>
 				<?php the_field('single_project_page_description'); ?> 	
 			</div>
-			
-			
-				
 				
 	    </div>
    </div>

@@ -27,7 +27,7 @@
 	}	
 	?>
 		<div class="row col-md-12">
-					<img src="<?php  echo get_site_url(); ?>/wp-content/themes/jkd_designs/img/up-arrow.png" alt="upwards arrow" id="up-arrow">	  
+			<a href="#top"><img src="<?php  echo get_site_url(); ?>/wp-content/themes/jkd_designs/img/up-arrow.png" alt="upwards arrow" id="up-arrow"></a>  
 			</div>
 	</div> 
 

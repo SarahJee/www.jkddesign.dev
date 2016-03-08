@@ -11,23 +11,8 @@
 	   <div class="row thankyou">
 		   
 		   <div class="col-md-12">
-			    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			    
-			    	<div class="page-header">
-						<h1><?php the_title(); ?></h1>
-			    	</div>
-			    
-					<?php the_content(); ?>
-					
-			    <?php endwhile; else: ?>
-			    	
-			    	<div class="page-header">
-						<h1>Oh no!</h1>
-			    	</div>
-			    	
-			    	<p>This message displays because there is no content on this page</p>
-			    	
-			    <?php endif; ?>
+
+		   <h3>Thanks for saying hello, <br />I'll be right back to you!</h3>
 			   
 		   </div>
 	   

@@ -9,8 +9,7 @@
 	      	<h3>A creative thinking studio<br /> for branding, graphic & web design<h3>
 			<?php the_content(); ?>
 			
-			<a href="#scrollto" rel="" id="anchor1" class="anchorLink">
-				<img src="<?php  echo get_site_url(); ?>/wp-content/themes/jkd_designs/img/down-arrow.png" alt="downwards arrow" id="down-arrow" class="animated bounce">
+			<a href="#welcome"><img src="<?php  echo get_site_url(); ?>/wp-content/themes/jkd_designs/img/down-arrow.png" alt="downwards arrow" id="down-arrow" class="animated bounce">
 			</a>
 			
 						
@@ -24,7 +23,9 @@
 		    
 <!-- Welcome
 ================================================== -->
+	<div id="welcome"></div>
 			<div class="row welcome">
+				
 		      
 		      <h1>Welcome</h1>
 		      <h2>Welcome to JKD Design: a Fremantle-based design studio that is built on creative thinking and strategic solutions for branding, graphic and web design.</h2> 
@@ -74,7 +75,7 @@
 	
 <!-- Services
 ================================================== -->
-   <div id="services"></div>
+    <div id="services"></div>
     <div id="bg-grunge">  
     <div class="container">
        <div class="row services">

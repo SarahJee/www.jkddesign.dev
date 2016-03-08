@@ -46,6 +46,8 @@
 		        wp_nav_menu( $args );
 		        ?>
         </div><!--/.navbar-collapse -->
+        
+<!-- Add Logo -->        
 <a href="<?php bloginfo( 'url' ); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/header-logo.png" alt="jkd design logo" width="188px" height="59px" class="center-block"></a>
       </div>        
     </nav>
